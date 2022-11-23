@@ -11,7 +11,7 @@ class Test(unittest.TestCase):
         self.assertEqual(foo('5', '1 4 0 -1 3'), 1)
 
     def test_3(self):
-        self.assertEqual(foo('6', '1 0 1 0 1 0'), 2)
+        self.assertEqual(foo('6', '1 0 1 0 1 0'), 3)
 
     def test_4(self):
         self.assertEqual(foo('3', '1 7 1'), 1)
